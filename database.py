@@ -6,7 +6,7 @@ import tkinter as tk
 import pyperclip
 import tkinter.messagebox as messagebox
 
-master = 'BM1$oYUT9)&Sz855cd61Tg*$4)oe$N!a'
+master = 'Pj4#0SNE*6c7@gb**5WCR7/e53gDye/#'
 
 
 def encrypt(password, key):
