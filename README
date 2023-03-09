@@ -1,2 +1,2 @@
-PLEASE REPLACE THE master KEY WITH A 32 CHARACTER KEY OF YOUR OWN
-IF YOU DO NOT DO THIS YOUR DATABASE FILE CAN BE DECRYPTED BY ANYONE
+32 character AES-256 encryption key is automatically generated to a config.ini at first launch
+DO NOT DELETE config.ini
