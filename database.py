@@ -8,7 +8,6 @@ import tkinter.messagebox as messagebox
 import os
 import configparser
 import hashlib
-import base64
 
 config_file = 'config.ini'
 config = configparser.ConfigParser()
