@@ -41,7 +41,7 @@ def main():
         iv = get_random_bytes(AES.block_size)
         cipher = AES.new(key, AES.MODE_CFB, iv)
         ciphertext = cipher.encrypt(password.encode('utf-8'))
-        return base64.b64encode(iv + ciphertext)
+        return base64.b64encode(iv + ciphertext).decode('utf-8')
     def decrypt(ciphertext, key):
         ciphertext = base64.urlsafe_b64decode(ciphertext)
         # remove padding if necessary
