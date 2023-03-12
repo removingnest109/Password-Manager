@@ -1,4 +1,3 @@
-32 character AES-256 encryption key is automatically generated to a config.ini at first launch
-DO NOT DELETE config.ini
+32 character AES-256 encryption key is automatically generated using the user's master password
 
 Data is stored in database.db
