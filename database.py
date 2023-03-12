@@ -9,6 +9,7 @@ import os
 import configparser
 import hashlib
 
+print('helloworld')
 config_file = 'config.ini'
 config = configparser.ConfigParser()
 def login():
